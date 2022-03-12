@@ -1,0 +1,110 @@
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+img{
+    pointer-events: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+nav {
+  position: relative;
+  z-index: 1000;
+}
+header {
+  position: relative;
+  overflow: hidden;
+}
+header .shape1 {
+  position: absolute;
+  top: -125px;
+  left: -10%;
+  width: 120%;
+  min-height: 170px;
+  object-fit: cover;
+}
+header .shape2 {
+  position: absolute;
+  bottom: -5%;
+  left: -10%;
+  width: 120%;
+  object-fit: cover;
+}
+section:first-child {
+  position: relative;
+}
+.shadow1 {
+  position: absolute;
+  max-width: 40%;
+  left: -5%;
+  bottom: 0;
+  -moz-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+  opacity: 0.5;
+  pointer-events: none;
+}
+section:nth-child(3) {
+  position: relative;
+}
+.shape3 {
+  position: absolute;
+  top: 0;
+  left: -10%;
+  object-fit: cover;
+  width: 120%;
+}
+.shadow2 {
+  position: absolute;
+  max-width: 40%;
+  width: 100%;
+  left: -10%;
+  top: 50%;
+  -moz-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1) translateY(50%);
+  opacity: 0.5;
+  pointer-events: none;
+}
+.shape4 {
+  position: absolute;
+  bottom: 0;
+  left: -10%;
+  width: 120%;
+  transform: translateY(50%);
+  z-index: 2;
+  object-fit: cover;
+}
+section:nth-child(4) {
+  position: relative;
+}
+.shape5 {
+  position: absolute;
+  bottom: -5%;
+  left: -10%;
+  width: 120%;
+  object-fit: cover;
+}
+section:last-child {
+  position: relative;
+}
+.shape6 {
+  position: absolute;
+  top: -5%;
+  left: -10%;
+  width: 120%;
+  object-fit: cover;
+}
+.shape7 {
+  position: absolute;
+  bottom: 0;
+  left: -10%;
+  width: 120%;
+  transform: translateY(50%);
+  z-index: 2;
+  object-fit: cover;
+}
